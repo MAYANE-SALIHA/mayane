@@ -1,0 +1,108 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <title>CSS3_colour5</title>
+  <meta name="description" content="website description" />
+  <meta name="keywords" content="website keywords, website keywords" />
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+  <link rel="stylesheet" type="text/css" href="css/style.css" />
+  <!-- modernizr enables HTML5 elements and feature detects -->
+  <script type="text/javascript" src="js/modernizr-1.5.min.js"></script>
+</head>
+
+<body>
+  <div id="main">
+     <header>
+    <div><img src="images\liqae1.png"  width=200 height=100 align=right id="lg"></img></div>
+      <div id="logo">
+        <div id="logo_text">
+          <!-- class="logo_colour", allows you to change the colour of the text -->
+          <h1><a href="index.html"><span class="logo_colour">LIQAE</span></a></h1>
+          <h2>Pour le développement & connection humains</h2>
+	
+        </div>
+      </div>
+      <nav>
+       <div id="menu_container">
+          <ul class="sf-menu" id="nav">
+            <li><a href="index.html">Acueil</a></li>
+            <li><a href="examples.html">Activit&eacute;s</a></li>
+            <li><a href="page.html">Forum</a></li>
+            <li><a href="another_page.html"></a></li>
+            <li><a href="#">Programme</a>
+              <ul id="mise1">
+                <li><a href="#">Activit&eacute de semaine courante </a></li>
+                <li><a href="#">Activit&eacute programmer</a>
+                  <ul>
+                    <li><a href="#">Pour les semaines de moi courant</a></li>
+                    <li><a href="#">Pour le moi prochain </a></li>
+                  </ul>
+                </li>
+                <li><a href="#">Activit&eacute encient </a></li>
+              </ul>
+            </li>
+            <li><a href="contact.php">Contacter-nous</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <div id="site_content">
+      <div id="sidebar_container">
+        <div class="sidebar">
+          <h3 class="hh3">Aujourd'hui matin</h3>
+          <h4 id="hh4">R&eacute;union </h4>
+          <h5>10h du matin </h5>
+          <p>Liqae va rencontrer une réunion a partir de 10h avec son groupe de developpement et connection ...<br /><a href="#">Lire la suite</a></p>
+        </div>
+        <div class="sidebar">
+          <h3 class="hh3">Aujourd'hui après midi</h3>
+           <h5> A partir de 14h</h5>
+          <p>Liqae va organiser une atelier pour l'échange des idées avec  son groupe de developpement et connection ...<br /><a href="#">Lire la suite</a></p>
+        </div>
+        <div class="sidebar">
+          <h3>Aujourd'hui soir</h3>
+          <ul class="hh3">
+           <h5> A partir de 19h</h5>
+          <p>Liqae va preparer une petite soiré pour présenter les nouveaux participents dans le groupe de developpement et connection ...<br /><a href="#">Lire la suite</a></p>
+        </div>
+      </div>
+      <div class="content">
+        <h1>Les activités disponibles sur Liqae </h1>
+        <h3><em>Réunion avec les membres :</em></h3>
+        <span class="left"><img src="images/pic1.bmp" alt="example graphic" /></span>
+        <p>
+          Liqae organise chaque semaine des réunion avec ces membres pour descuter et organiser tout les nouveautés, proposer des solutions pour les problémes,...
+		  Ces réunions demandes la présence et la participation de tout les membre de Ligae.
+        </p>
+		<h3><em>Organisation des discutions ouvertes  avec les membres :</em></h3>
+        <span class="left"><img src="images/img1.jpg" alt="example graphic"  width=400 height=200 /></span><br>
+        <p>
+         Liqae organise des discutions ouvertes pour présenter les nouveaux memebres aux autres membre, 
+		 plus proposer des nouvelles idées, des nouveaux ateliers ...&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+		
+	     <h3 align="left"><em>Organisation des soirés :</em></h3>
+        <span class="left"><img src="images/pic3.bmp" alt="example graphic" width=400 height=150/></span>
+        <p>
+		Liqae organise des soirées pour donner ou participant de faire des connaicences avec les autres membres et faire l'echange des idées...  
+        </p>  
+      </div>
+    </div>
+    <footer>
+ <p id="mise">Liqae 26/03/2016</p>
+    </footer>
+  </div>
+  <p>&nbsp;</p>
+  <!-- javascript at the bottom for fast page loading -->
+  <script type="text/javascript" src="js/jquery.js"></script>
+  <script type="text/javascript" src="js/jquery.easing-sooper.js"></script>
+  <script type="text/javascript" src="js/jquery.sooperfish.js"></script>
+  <script type="text/javascript">
+    $(document).ready(function() {
+      $('ul.sf-menu').sooperfish();
+    });
+  </script>
+</body>
+</html>
